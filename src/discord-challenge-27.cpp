@@ -37,10 +37,12 @@ int main() {
 		} else {
 			for (auto s : clubs) {
 				if (n > s.d) {
+					cout<<"club "<<s.d<<endl;
 					r=s.d;
 					b=s.s;
 					break;
 				} else if (s.d==5 && n<=5) {
+					cout<<"putt"<<endl;
 					r=n;
 					b=s.s;
 					c="\n";
